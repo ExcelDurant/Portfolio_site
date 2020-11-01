@@ -18,6 +18,10 @@
     font-weight: 300;
 }
 
+.pages {
+    margin-left: 102px;
+}
+
 /*                  SIDE NAVIGATION SECTION                    */
 
 .side-nav-sec{
@@ -77,7 +81,7 @@
     margin-left: 20px;
 }
 
-.active{
+.active {
     color: crimson;
 }
 
@@ -88,8 +92,7 @@
 
 /*                  HOME PAGE SECTION                                     */
 
-.home-page{
-    margin-left: 102px;
+.home-page {
     height: 630px;
     background: url('../img/svg/me.svg');
     background-color:  rgb(243, 237, 237);
@@ -180,8 +183,7 @@
 
 /*                  ABOUT ME PAGE SECTION PAGE                          */
 
-.about-page{
-    margin-left: 102px;
+.about-page {
     height: 1000px;
     font-family: 'Roboto', sans-serif;
 }
@@ -236,7 +238,6 @@
 .download-link{
     display: inline-block;
     clear: both;
-    /* float: left; */
     padding: 10px 22px;
     background-color: rgb(238, 44, 44);
     color: white;
@@ -255,12 +256,78 @@
 
 
 
+/*                  EDUCATION SECTION                                   */
+
+
+
+
+
+
+/*                  END OF EDUCATION SECTION                            */
+
+
+
+/*                  MY SERVICES SECTION                                 */
+
+.service-page {
+    height: 750px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.services {
+    width: 98%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.service-container {
+    width: 90%;
+    margin: 0 auto;
+    height: 250px;
+    background-color:  rgb(248, 244, 244);
+    text-align: center;
+    padding: 5px;
+}
+
+.service-number {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    border: 1px solid crimson;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 40px;
+}
+
+.service-number h2 {
+    margin-top: 18px;
+    font-size: 30px;
+    font-weight: 900;
+    color: crimson;
+}
+
+.service-title {
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.service-expl {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/*                  END OF MY SERVICES SECTION                         */
+
+
+
 
 /*                  MY WORKS SECTION                                  */
 
 .works-page {
-    margin-left: 102px;
-    height: 1000px;
+    height: 830px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -285,7 +352,6 @@
 /*                  CONTACT ME SECTION                               */
 
 .contact-page {
-    margin-left: 102px;
     height: 1000px;
     font-family: 'Roboto', sans-serif;
 }
