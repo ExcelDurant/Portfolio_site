@@ -24,22 +24,20 @@
 
 /*                  SIDE NAVIGATION SECTION                    */
 
-.side-nav-sec{
+.side-nav-sec {
     width: 100px;
-    height: 630px;
     background-color: rgb(255, 255, 255);
     float: left;
     position: sticky;
     top: 0;
 }
 
-.initials{
+.initials {
     display: inline-block;
     text-align: center;
     width: 45%;
     height: 35px;
-    padding-top: 5px;
-    /* padding: 5px 5px 5px 5px; */
+    padding-top: 8px;
     background-color: crimson;
     color: cornsilk;
     border-radius: 50%;
@@ -55,7 +53,7 @@
 
 .nav-items{
     height: 60px;
-    margin-top: 30px;
+    margin-top: 35%;
     margin-left: 10px;
     text-align: center;
     transform: rotate(270deg);
@@ -86,6 +84,18 @@
 }
 
 /*                  END OF SIDE NAVIGATION SECTION                       */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -181,6 +191,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*                  ABOUT ME PAGE SECTION PAGE                          */
 
 .about-page {
@@ -256,14 +281,46 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*                  EDUCATION SECTION                                   */
 
+.education-page ul {
+    margin-left: 20px;
+}
 
-
+.education-page li {
+    border-left: 1px solid black;
+    padding-left: 15px;
+}
 
 
 
 /*                  END OF EDUCATION SECTION                            */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -324,6 +381,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 /*                  MY WORKS SECTION                                  */
 
 .works-page {
@@ -344,9 +411,20 @@
     width: 100%;
     height: 300px;
     border: 1px solid black;
+    border-radius: 5px;
 }
 
 /*                  END OF MY WORKS SECTION                           */
+
+
+
+
+
+
+
+
+
+
 
 
 /*                  CONTACT ME SECTION                               */
@@ -360,7 +438,6 @@
     width: 97%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* grid-column-gap: 20px; */
     margin: 20px auto;
 }
 
@@ -375,6 +452,7 @@
     font-size: 17px;
     width: 400px;
     height: 30px;
+    transition: border-bottom 0.5s;
 }
 
 .contact-page input[type=text]:focus {
